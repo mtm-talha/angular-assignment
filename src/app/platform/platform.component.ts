@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-platform',
   templateUrl: './platform.component.html',
-  styleUrls: ['./platform.component.scss']
+  styleUrls: ['./platform.component.scss'],
 })
-export class PlatformComponent {
-
-}
+export class PlatformComponent {}

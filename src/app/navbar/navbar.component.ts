@@ -1,11 +1,11 @@
 // import { Component, OnInit, ElementRef } from '@angular/core';
 // import { Location } from '@angular/common';
-import { Component } from '@angular/core';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { Component } from '@angular/core'
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 @Component({
-    selector: 'app-navbar',
-    templateUrl: './navbar.component.html',
-    styleUrls: ['./navbar.component.scss']
+  selector: 'app-navbar',
+  templateUrl: './navbar.component.html',
+  styleUrls: ['./navbar.component.scss'],
 })
 // export class NavbarComponent implements OnInit {
 //     private toggleButton: any;
@@ -66,10 +66,9 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 //     }
 // }
 export class NavbarComponent {
-constructor(private modalService: NgbModal) {
-}
+  constructor(private modalService: NgbModal) {}
 
-public open(modal: any): void {
-  this.modalService.open(modal);
-}
+  public open(modal: any): void {
+    this.modalService.open(modal)
+  }
 }

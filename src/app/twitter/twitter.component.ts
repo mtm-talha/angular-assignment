@@ -1,10 +1,8 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
   selector: 'app-twitter',
   templateUrl: './twitter.component.html',
-  styleUrls: ['./twitter.component.scss']
+  styleUrls: ['./twitter.component.scss'],
 })
-export class TwitterComponent {
-
-}
+export class TwitterComponent {}
