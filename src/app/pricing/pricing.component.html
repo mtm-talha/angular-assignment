@@ -1,3 +1,89 @@
-<div class="pricing">
-    <p>pricing works!</p>
-</div>
+<section id="Pricing" class="pricing-container">
+    <div class="pricing-row row">
+        <div *ngFor="let package of packages" class="col-md-4">
+            <div class="pricing-column col-md-8" [ngStyle]="{'background-color':package.isActive?'#a8ff35':null}">
+                <div class="pricing-heading">
+                    <h1>{{package.name}}</h1>
+                    <p>{{package.description}}</p>
+                    <hr>
+                </div>
+                <div class="payment">
+                    <h3>$8<span class="small">/Month</span></h3>
+                    <ul>
+                        <li>Up to 5 page each group</li>
+                        <li>Up to 10 group page</li>
+                        <li>5 Days group page saved</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button>Start Free Trail</button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col-md-4">
+            <div class="pricing-column col-md-8">
+                <div class="pricing-heading">
+                    <h1>Regular</h1>
+                    <p>Special first packet for all</p>
+                    <hr>
+                </div>
+                <div class="payment">
+                    <h3>$8<span class="small">/Month</span></h3>
+                    <ul>
+                        <li>Up to 5 page each group</li>
+                        <li>Up to 10 group page</li>
+                        <li>5 Days group page saved</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button>Start Free Trail</button>
+                </div>
+            </div>
+        </div>
+       <div class="col-md-4">
+            <div class="pricing-column col-md-8" style="background-color:#a8ff35">
+                <div class="pricing-heading">
+                    <h1>Regular</h1>
+                    <p>Recommended for personal pro</p>
+                    <hr>
+                </div>
+                <div class="payment">
+                    <h1>$20<span class="small">/Month</span></h1>
+                    <ul>
+                        <li>Up to 15 page each group</li>
+                        <li>Download page up to 20 page</li>
+                        <li>Up to 10 group page</li>
+                        <li>15 Days group page saved</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button>Start Free Trail</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="pricing-column col-md-8">
+                <div class="pricing-heading">
+                    <h1>Premium</h1>
+                    <p>Packet for startup and company</p>
+                    <hr>
+                </div>
+                <div class="payment">
+                    <h1>$48<span class="small">/Month</span></h1>
+                    <ul>
+                        <li>Unlimited group pages</li>
+                        <li>Unlimited download pages</li>
+                        <li>Unlimited page each group</li>
+                        <li>Customize sorting group pages</li>
+                        <li>Customize group page name</li>
+                        <li>30 Days group page saved</li>
+                    </ul>
+                </div>
+                <div class="button">
+                    <button>Start Free Trail</button>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</section>

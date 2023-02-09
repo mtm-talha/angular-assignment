@@ -1,6 +1,41 @@
-.pricing {
-    background-color: aqua;
-    color:red;
-    height: 450px;
-    padding: 40px;
+.pricing-column {
+  margin: 10px;
+  height: 480px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.pricing-row {
+  padding: 20px;
+  position: relative;
+}
+
+.pricing-container {
+  background: black;
+  padding: 40px;
+  padding: 30px 50px 30px 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: "✓";
+}
+
+.button {
+  color: black;
+  position: relative;
+  padding: 100px;
+  height: 215px;
+}
+
+.pricing-heading {
+  margin: 10px;
+  position: relative;
+}
+
+.payment {
+  position: relative;
 }

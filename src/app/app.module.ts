@@ -15,6 +15,8 @@ import { SolutionComponent } from './solution/solution.component';
 import { FeaturesComponent } from './features/features.component';
 import { CompaniesComponent } from './companies/companies.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { TwitterComponent } from './twitter/twitter.component';
+import { PlatformComponent } from './platform/platform.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     SolutionComponent,
     FeaturesComponent,
     CompaniesComponent,
-    DashboardComponent
+    DashboardComponent,
+    TwitterComponent,
+    PlatformComponent
   ],
   imports: [    
     MatSlideToggleModule,
