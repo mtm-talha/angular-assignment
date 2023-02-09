@@ -35,9 +35,10 @@ img {
   margin-left: 5px;
 }
 
-.tweet-header-info p {
+.tweet-header-info span > p {
   font-weight: normal;
   margin-top: 5px;
+  margin-bottom: 0;
 }
 
 .tweet-info-counts {
@@ -48,6 +49,7 @@ img {
 .tweet-info-counts div {
   display: flex;
   margin-right: 10px;
+  font-weight: normal;
 }
 
 .tweet-info-counts div svg {

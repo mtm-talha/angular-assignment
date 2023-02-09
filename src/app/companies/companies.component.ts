@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { Companies } from './companies'
 
 @Component({
   selector: 'app-companies',
@@ -6,7 +7,7 @@ import { Component } from '@angular/core'
   styleUrls: ['./companies.component.scss'],
 })
 export class CompaniesComponent {
-  companies = [
+  companies: Companies[] = [
     {
       name: 'Microsoft',
       image: '../assets/img/companies-logo/Microsoft-Logo.png',
@@ -58,13 +59,16 @@ export class CompaniesComponent {
     {
       name: 'We Transfer',
       image: '../assets/img/companies-logo/wetransfer logo.png',
-    },{
+    },
+    {
       name: 'Suzuki',
       image: '../assets/img/companies-logo/Suzuki_Motors-Logo.wine.png',
-    },{
+    },
+    {
       name: 'Algolia',
       image: '../assets/img/companies-logo/Algolia-logo.svg.png',
-    },{
+    },
+    {
       name: 'Heineken',
       image: '../assets/img/companies-logo/Heineken-Logo.png',
     },
