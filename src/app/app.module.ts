@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { HeaderComponent } from './header/header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
@@ -34,7 +33,6 @@ import { PlatformComponent } from './platform/platform.component';
     PlatformComponent
   ],
   imports: [    
-    MatSlideToggleModule,
     NgbModule,
     BrowserModule,
     AppRoutingModule,
