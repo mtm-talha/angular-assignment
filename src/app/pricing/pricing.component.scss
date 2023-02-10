@@ -1,43 +1,44 @@
 .pricing-column {
-  padding-left: 20px;
-  min-height: 450px;
-  background-color: white;
-  border-radius: 25px;
+    padding-left: 20px;
+    min-height: 450px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .pricing-row {
-  padding: 20px;
+    padding: 20px;
 }
 
 .pricing-container {
-  background: black;
-  padding: 30px 50px 30px 50px;
+    background: black;
+    padding: 30px 50px 30px 50px;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 ul li:before {
-  content: '✓';
-  padding: 10;
+    content: '✓';
+    padding: 10;
 }
 
 .btn-trail {
-  text-align: center;
-  margin: 15px 20px;
-  padding: 10px 30px;
-  font-size: 1.4em;
-  border-radius: 50px;
+    text-align: center;
+    margin: 15px 20px;
+    padding: 10px 30px;
+    font-size: 1.4em;
+    border-radius: 50px;
 }
 
 .is-active-btn {
-  background-color: #000000;
-  color: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .is-not-active-btn {
-  background-color: #a8ff35;
-  color: #000000;
+    background-color: #a8ff35;
+    color: #000000;
 }

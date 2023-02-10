@@ -1,44 +1,45 @@
 .solution-container {
-  background-color: #a8ff35;
-  text-align: center;
-  font-family: sans-serif;
-  font-weight: bold;
-  padding: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    background-color: #a8ff35;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .solution-container h1 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 45px;
-  line-height: 50px;
-  font-weight: bold;
-  padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 .find-trend-block {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .find-trend-tweet {
-  background: white;
-  padding: 30px 50px;
-  border-radius: 15px;
-  margin-bottom: 15px;
+    background: white;
+    padding: 30px 50px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .find-trend-container {
-  background: black;
-  color: white;
-  padding: 5px 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .find-trend-container h3 {
-  padding: 10px;
+    padding: 10px;
 }
