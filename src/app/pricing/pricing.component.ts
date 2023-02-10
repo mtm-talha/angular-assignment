@@ -12,7 +12,7 @@ export class PricingComponent {
       name: 'Personal',
       description: 'Special first packet for all',
       price: '$8',
-      isMonthly: false,
+      isMonthly: true,
       featuresList: [
         'Up to 5 page each group',
         'Up to 10 group page',
