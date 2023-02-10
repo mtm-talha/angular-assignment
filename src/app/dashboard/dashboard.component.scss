@@ -1,31 +1,81 @@
 .dashboard-container {
-  background-image: url(../../assets/img/Ornament.svg);
-  background-color: black;
-  padding: 35px;
-  color: #ffffff;
+    background-image: url(../../assets/img/Ornament.svg);
+    background-color: black;
+    padding: 35px;
+    color: #ffffff;
 }
 
 .dashboard-content {
-  color: #ffffff;
-  text-align: center;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
 }
 
 .dashboard-content p {
-  color: #a4a9b7;
-  text-align: center;
+    color: #a4a9b7;
+    text-align: center;
 }
 
 .get-started-btn {
-  background-color: #a8ff35;
-  border: none;
-  color: black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 2px 2px;
-  border-radius: 10px;
+    background-color: #a8ff35;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 10px;
+}
+
+.search-btn {
+    padding: 70px 0 180px 0;
+}
+
+.tab-1 {
+    position: absolute;
+    right: 9%;
+    top: 87%;
+    z-index: 1;
+    transform: rotate(3deg);
+}
+
+.tab-2 {
+    position: absolute;
+    right: 28%;
+    top: 78%;
+    z-index: 2;
+    transform: rotate(350deg);
+}
+
+.tab-3 {
+    position: absolute;
+    right: 50%;
+    top: 90%;
+    z-index: 3;
+    transform: rotate(3deg);
+}
+
+.tab-4 {
+    position: absolute;
+    z-index: 4;
+    right: 68%;
+    transform: rotate(350deg);
+}
+
+$maxImagesNumber: 5;
+.images-wrapper {
+    img {
+        position: absolute;
+        padding: 5px;
+        border: solid black 1px;
+    }
+    @for $i from $maxImagesNumber through 1 {
+         :nth-child(#{ $i }) {
+            z-index: #{ $maxImagesNumber - ($i - 1) };
+            left: #{ ($i - 1) * 30 }px;
+        }
+    }
 }
